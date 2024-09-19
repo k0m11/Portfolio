@@ -19,9 +19,11 @@ html {
     justify-content: space-between;
 }
 .header-logo {
+    display: flex;
     font-family: Alexandria;
     font-size: 75px;
     color: white;
+    cursor: default;
 }
 .header-elements {
     color: #C9C9C9;
@@ -33,6 +35,7 @@ html {
 .header-elements h1 {
     font-size: 34px;
     margin-right: 50px;
+    cursor: pointer;
 }
 .header-elements img {
     margin-top: 35px;
@@ -41,6 +44,7 @@ html {
     height: 30px;
 }
 .main {
+    padding-bottom: 15%;
     padding-top: 10%;
     display: flex;
     padding-left: 18%;
@@ -64,10 +68,6 @@ html {
     z-index: -1;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
-}
-.main-text {
-
 }
 .main-text h1 {
     font-size: 72px;
@@ -82,6 +82,7 @@ html {
     font-family: Libre Baskerville;
 }
 .main-text button {
+    cursor: pointer;
     font-family: League Spartan;
     font-size: 20px;
     color: white;
@@ -107,4 +108,55 @@ html {
     color: white;
     line-height: 40px;
     font-size: 40px;
+}
+.about-arrow {
+    font-size: 26px;
+    font-family: Libre Baskerville;
+    text-align: center;
+    display: block;
+    color: white;
+}
+.about-arrow p {
+    margin-top: 20px;
+    transform: rotate(270deg);
+    font-size: 36px;
+}
+.about-code-left {
+    top: 60%;
+    position: absolute;
+    margin-left: auto;
+    left: 0;
+    width: 30%;
+}
+.about-code-right {
+    position: absolute;
+    margin-right: auto;
+    right: 0;
+    width: 30%;
+}
+.about {
+}
+.about-elements {
+}
+.about-img img {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    width: 40%;
+    filter: grayscale(100%);
+}
+.about-img {
+    margin: 0 auto;
+}
+.about-blocks {
+    display: flex;
+    justify-content: space-between;
+}
+.about-block {
+    background-color: white;
+    width: 50%;
+}
+.about-block2 {
 }
