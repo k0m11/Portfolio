@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ramabhadra:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 
 html {
     scroll-behavior: smooth;
@@ -11,6 +12,9 @@ html {
 * {
     padding: 0;
     margin: 0;
+}
+a {
+    text-decoration: none;
 }
 .header {
     line-height: 100px;
@@ -188,7 +192,7 @@ html {
     width: 40%;
     background: linear-gradient(90deg, rgba(0, 0, 0, 0) 10%, #20232d 0%);
 }
-.blocks-block h5 {
+.blocks-block h5{
     margin-top: 50px;
     width: 505px;
     font-weight: 400;
@@ -203,4 +207,55 @@ html {
     height: 20px;
     width: 100%;
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.096) 20%, rgba(255, 255, 255, 0));
+}
+.skills {
+    text-align: center;
+    padding-top: 30%;
+    color: white;
+}
+.skills-text {
+}
+.skills-text h1 {
+    font-weight: 400;
+    font-family: Ramabhadra;
+    font-size: 86px;
+}
+.skills-text p {
+    height: 0px;
+    color: #8C8C8C;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Raleway;
+}
+.skills-text h5 {
+    margin: 0 auto;
+    width: 800px;
+    font-weight: 400;
+    font-family: Ramabhadra;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 54%);
+}
+.skills-text a {
+    color: #C8782F;
+}
+.skills-techs {
+    display: flex;
+    justify-content: center;
+}
+.skills-tech img {
+    width: 128px;
+    height: 128px;
+}
+.techs-line {
+    margin-top: 40px;
+    justify-content: center;
+    display: flex;
+}
+.skills-tech h1{
+    font-size: 26px;
+    font-family: Ramabhadra;
+    font-weight: 400;
+}
+.skills-tech {
+    margin-inline: 35px;
 }
