@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@200;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ramabhadra:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
 
 html {
@@ -14,6 +14,7 @@ html {
     margin: 0;
 }
 a {
+    color: white;
     text-decoration: none;
 }
 .header {
@@ -24,6 +25,7 @@ a {
     justify-content: space-between;
 }
 .header-logo {
+    font-weight: 600;
     display: flex;
     font-family: Alexandria;
     font-size: 75px;
@@ -213,8 +215,6 @@ a {
     padding-top: 30%;
     color: white;
 }
-.skills-text {
-}
 .skills-text h1 {
     font-weight: 400;
     font-family: Ramabhadra;
@@ -258,4 +258,92 @@ a {
 }
 .skills-tech {
     margin-inline: 35px;
+}
+.contacts {
+    margin: 0 auto;
+    width: 80%;
+    margin-top: 25%;
+    margin-bottom: 5%;
+}
+#contacts-logo {
+    font-family: Alexandria;
+    font-weight: 600;
+    color: #3870C3;
+    font-size: 120px;
+}
+.contacts-text {
+    width: 900px;
+}
+.contacts-text span {
+    color: white;
+    font-family: Alexandria;
+    font-weight: 600;
+    font-size: 90px;
+}
+.contacts-arrow {
+    margin-left: 110%;
+    font-size: 100px;
+    color: white;
+}
+.contacts-button button {
+    border: none;
+    cursor: pointer;
+    border-radius: 80px;
+    padding-inline: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: white;
+    font-family: Alexandria;
+    font-weight: 600;
+    font-size: 54px;
+    background: linear-gradient(90deg,#3870C3, #1A5AA5);
+    z-index: 100;
+    margin-left: 50%;
+    position: relative;
+}
+.contacts-button hr {
+    border-top: solid 2px;
+    border-color: rgba(255, 255, 255, 0.11);
+    margin-top: 80px;
+    z-index: 0;
+    position: absolute;
+    width: 80%;
+}
+.contacts-icons {
+    margin-top: 150px;
+    width: 500px;
+}
+.contacts-icons img {
+    width: 90px;
+    height: 90px;
+    margin-right: 45px;
+}
+#contacts-mail {
+    cursor: pointer;
+    padding-inline: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 80px;
+    color: white;
+    font-family: Alexandria;
+    font-weight: 600;
+    font-size: 24px;
+    border: solid rgb(255, 255, 255, 0.11), 2px;
+    background-color: transparent;
+}
+.contacts-back {
+    transform: rotate(270deg);
+    width: 200px;
+    margin-left: 85%;
+    padding-left: 250px;
+}
+.contacts-back a {
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.37);
+    font-weight: 200;
+    font-family: Alexandria;
+}
+.contacts-back span {
+    font-family: Poppins;
+    font-weight: 900;
 }
