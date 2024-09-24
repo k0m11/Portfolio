@@ -31,6 +31,10 @@ a {
     font-size: 75px;
     color: white;
     cursor: default;
+    transition: ease 300ms;
+}
+.header-logo:hover {
+    transform: scale(1.2);
 }
 .header-elements {
     color: #C9C9C9;
@@ -43,12 +47,26 @@ a {
     font-size: 34px;
     margin-right: 50px;
     cursor: pointer;
+    transition: ease 300ms;
+    border: solid transparent;
+    border-width: 3px;
+}
+.header-elements h1:hover {
+    font-size: 36px;
+    border-top: solid rgb(114, 114, 114) 3px;
+    border-bottom: solid rgb(114, 114, 114) 3px;
+    border-radius: 30px;
 }
 .header-elements img {
     margin-top: 35px;
     margin-right: 50px;
     width: 30px;
     height: 30px;
+    transition: ease 300ms;
+}
+.header-elements img:hover {
+    cursor: pointer;
+    transform: scale(1.5);
 }
 .main {
     padding-bottom: 15%;
@@ -105,10 +123,21 @@ a {
     display: block;
     width: 90px;
     margin-bottom: 50px;
+    transition: ease 300ms;
+}
+.main-links img:hover {
+    transform: scale(1.2) rotate(10deg);
 }
 .main-about__btn {
     margin-top: 40px;
     display: flex;
+}
+.main-about__btn button {
+    transition: ease 300ms;
+}
+.main-about__btn button:hover {
+    width: 110px;
+    border-radius: 15px 0px 0px 15px;
 }
 .main-text h5 {
     margin-left: 10px;
@@ -202,6 +231,15 @@ a {
     font-family: Ramabhadra;
     color: #aaaaaa50;
 }
+.blocks-bluetext {
+    color: #498DF3;
+    margin-top: 10px;
+    transition: ease 300ms;
+}
+.blocks-bluetext:hover {
+    transform: scale(1.05);
+    cursor: zoom-in;
+}
 .line-shadow {
     z-index: 100;
     position: absolute;
@@ -245,6 +283,10 @@ a {
 .skills-tech img {
     width: 128px;
     height: 128px;
+    transition: ease 300ms;
+}
+.skills-tech img:hover {
+    transform: scale(1.1);
 }
 .techs-line {
     margin-top: 40px;
@@ -263,7 +305,6 @@ a {
     margin: 0 auto;
     width: 80%;
     margin-top: 25%;
-    margin-bottom: 5%;
 }
 #contacts-logo {
     font-family: Alexandria;
@@ -284,6 +325,11 @@ a {
     margin-left: 110%;
     font-size: 100px;
     color: white;
+    transition: ease 300ms;
+}
+.contacts-arrow:hover {
+    transform: scale(1.15);
+    cursor: default;
 }
 .contacts-button button {
     border: none;
@@ -300,6 +346,10 @@ a {
     z-index: 100;
     margin-left: 50%;
     position: relative;
+    transition: ease 300ms;
+}
+.contacts-button button:hover {
+    margin-left: 48%;
 }
 .contacts-button hr {
     border-top: solid 2px;
@@ -317,6 +367,10 @@ a {
     width: 90px;
     height: 90px;
     margin-right: 45px;
+    transition: ease 300ms;
+}
+.contacts-icons img:hover {
+    transform: scale(1.1) rotate(15deg);
 }
 #contacts-mail {
     cursor: pointer;
@@ -329,13 +383,20 @@ a {
     font-weight: 600;
     font-size: 24px;
     border: solid rgb(255, 255, 255, 0.11), 2px;
-    background-color: transparent;
+    background: transparent;
+    transition: ease 300ms;
+}
+#contacts-mail:hover {
+    transform: scale(1.05);
+    border-color: #498DF3;
+    background-color: #498df30c;
 }
 .contacts-back {
     transform: rotate(270deg);
     width: 200px;
     margin-left: 85%;
     padding-left: 250px;
+    transition: ease 300ms;
 }
 .contacts-back a {
     font-size: 28px;
@@ -346,4 +407,7 @@ a {
 .contacts-back span {
     font-family: Poppins;
     font-weight: 900;
+}
+.contacts-back:hover {
+    transform: scale(1.05) rotate(270deg);
 }
