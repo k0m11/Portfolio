@@ -411,3 +411,84 @@ a {
 .contacts-back:hover {
     transform: scale(1.05) rotate(270deg);
 }
+
+
+@media (max-width: 500px) {
+    .header-logo {
+        font-size: 44px;
+    }
+    .header-elements h1 {
+        font-size: 20px;
+        margin-right: 20px;
+    }
+    .header-elements img {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+        margin-top: 22px;
+    }
+    .header {
+        line-height: 60px;
+        width: 85%;
+    }
+
+    .main {
+        padding-bottom: 15%;
+        padding-top: 25%;
+        display: flex;
+        padding-left: 10%;
+        margin: 0 auto;
+    }
+    .main-background h1 {
+        font-size: 250px;
+        margin-top: 100px;
+    }
+    .main-text h1 {
+        font-size: 32px;
+        font-weight: 400;
+        font-family: Ramabhadra;
+        color: white;
+    }
+    .main-text p {
+        font-size: 20px;
+    }
+    .main-text button {
+        cursor: pointer;
+        font-family: League Spartan;
+        font-size: 20px;
+        color: white;
+        border: none;
+        width: 120px;
+        height: 45px;
+        background: linear-gradient(90deg, #67237A 11%, #881AA5 100%);
+    }
+    .main-links {
+        margin-right: 5%;
+    }
+    .main-links img {
+        display: block;
+        width: 90px;
+        margin-bottom: 50px;
+        transition: ease 300ms;
+    }
+    .main-links img:hover {
+        transform: scale(1.2) rotate(10deg);
+    }
+    .main-about__btn {
+        margin-top: 40px;
+        display: flex;
+    }
+    .main-about__btn button {
+        transition: ease 300ms;
+    }
+    .main-about__btn button:hover {
+        width: 110px;
+        border-radius: 15px 0px 0px 15px;
+    }
+    .main-text h5 {
+        margin-left: 10px;
+        color: white;
+        line-height: 40px;
+        font-size: 40px;
+    }
+}
