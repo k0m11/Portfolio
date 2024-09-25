@@ -525,10 +525,10 @@ a {
         height: 20px;
     }
     .blocks-block h5 {
-        width: 145px;
+        width: 100px;
         margin-top: 15px;
         height: 10px;
-        font-size: 8px;
+        font-size: 10px;
     }
     .blocks-block p {
         margin-top: 10px;
@@ -539,14 +539,14 @@ a {
         padding-top: 20%;
     }
     .skills-text p {
-        font-size: 8px;
+        font-size: 10px;
     }
     .skills-text h1 {
         font-size: 36px;
     }
     .skills-text h5 {
         font-size: 10px;
-        width: 400px;
+        width: 90%;
     }
     .skills-tech {
         margin-inline: 15px;
