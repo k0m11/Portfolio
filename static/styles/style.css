@@ -176,6 +176,12 @@ a {
     right: 0;
     width: 25%;
 }
+#code-left2 {
+    top: 200%
+}
+#code-right2 {
+    top: 270%
+}
 .about-img img {
     position: absolute;
     height: 96%;
@@ -301,6 +307,9 @@ a {
 .skills-tech {
     margin-inline: 35px;
 }
+#tech-figma {
+    width: 97px;
+}
 .contacts {
     margin: 0 auto;
     width: 80%;
@@ -421,11 +430,19 @@ a {
         font-size: 20px;
         margin-right: 20px;
     }
+    .header-elements h1:hover {
+        font-size: 22px;
+        border-radius: 20px;
+        border-width: 2px;
+    }
     .header-elements img {
         width: 20px;
         height: 20px;
         margin-right: 20px;
         margin-top: 22px;
+    }
+    .header-elements img:hover {
+        transform: scale(1.3);
     }
     .header {
         line-height: 60px;
@@ -433,62 +450,169 @@ a {
     }
 
     .main {
-        padding-bottom: 15%;
-        padding-top: 25%;
-        display: flex;
+        padding-top: 40%;
         padding-left: 10%;
-        margin: 0 auto;
+        padding-bottom: 30%;
     }
     .main-background h1 {
-        font-size: 250px;
-        margin-top: 100px;
+        font-size: 300px;
+        margin-top: 140px;
     }
     .main-text h1 {
         font-size: 32px;
-        font-weight: 400;
-        font-family: Ramabhadra;
-        color: white;
     }
     .main-text p {
-        font-size: 20px;
+        font-size: 16px;
     }
     .main-text button {
-        cursor: pointer;
-        font-family: League Spartan;
-        font-size: 20px;
-        color: white;
-        border: none;
-        width: 120px;
-        height: 45px;
-        background: linear-gradient(90deg, #67237A 11%, #881AA5 100%);
+        width: 80px;
+        font-size: 14px;
+        height: 30px;
+    }
+    .main-text button:hover {
+        width: 70px;
+        border-radius: 10px 0px 0px 10px;
+    }
+    .main-about__btn {
+        margin-top: 30px;
+    }
+    .main-about__btn h5 {
+        line-height: 25px;
+        font-size: 26px;
     }
     .main-links {
         margin-right: 5%;
     }
     .main-links img {
-        display: block;
-        width: 90px;
-        margin-bottom: 50px;
-        transition: ease 300ms;
+        width: 50px;
+        margin-bottom: 20px;
     }
-    .main-links img:hover {
-        transform: scale(1.2) rotate(10deg);
+
+    .about-code-left {
+        top: 50%;
+        width: 40%;
     }
-    .main-about__btn {
-        margin-top: 40px;
-        display: flex;
+    .about-code-right {
+        width: 40%;
+        top: 85%;
     }
-    .main-about__btn button {
-        transition: ease 300ms;
+    #code-left2 {
+        top: 120%;
     }
-    .main-about__btn button:hover {
-        width: 110px;
-        border-radius: 15px 0px 0px 15px;
+    #code-right2 {
+        top: 150%;
     }
-    .main-text h5 {
-        margin-left: 10px;
-        color: white;
-        line-height: 40px;
+    .about-arrow {
+        font-size: 16px;
+    }
+    .about-arrow p {
+        margin-top: 5px;
+        font-size: 30px;
+    }
+    .about-img img {
+        width: 80%;
+        height: 93%;
+    }
+    .blocks {
+        padding-top: 25%;
+    }
+    .blocks-block {
+        width: 35%;
+        padding-bottom: 40px;
+    }
+    .blocks-block h1 {
+        font-size: 18px;
+        height: 20px;
+    }
+    .blocks-block h5 {
+        width: 145px;
+        margin-top: 15px;
+        height: 10px;
+        font-size: 8px;
+    }
+    .blocks-block p {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    .skills {
+        padding-top: 20%;
+    }
+    .skills-text p {
+        font-size: 8px;
+    }
+    .skills-text h1 {
+        font-size: 36px;
+    }
+    .skills-text h5 {
+        font-size: 10px;
+        width: 400px;
+    }
+    .skills-tech {
+        margin-inline: 15px;
+    }
+    .skills-tech img {
+        width: 60px;
+        height: 60px;
+    }
+    #tech-figma {
+        width: 45px;
+    }
+    .skills-tech h1 {
+        font-size: 12px;
+    }
+
+    .contacts-text {
+        width: 300px;
+    }
+    #contacts-logo {
         font-size: 40px;
+    }
+    .contacts-text span {
+        font-size: 30px;
+    }
+    .contacts-arrow {
+        font-size: 60px;
+        margin-left: 90%;
+    }
+    .contacts-button button {
+        font-size: 18px;
+        width: 180px;
+        padding-inline: 20px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border-radius: 40px;
+        margin-left: 40%;
+    }
+    .contacts-button button:hover {
+        margin-left: 35%;
+    }
+    .contacts-button hr {
+        width: 90%;
+        margin-top: 25px;
+    }
+    #contacts-mail {
+        margin-top: 10px;
+        font-size: 12px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-inline: 15px;
+    }
+    .contacts-icons {
+        margin-top: 40px;
+        width: 160px;
+        margin-left: 25px;
+    }
+    .contacts-icons img {
+        margin-right: 20px;
+        width: 30px;
+        height: 30px;
+    }
+    .contacts-back {
+        margin-left: 35%;
+        padding-left: 65%;
+    }
+    .contacts-back a {
+        font-size: 16px;
     }
 }
