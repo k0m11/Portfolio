@@ -256,7 +256,7 @@ a {
 }
 .skills {
     text-align: center;
-    padding-top: 30%;
+    padding-top: 15%;
     color: white;
 }
 .skills-text h1 {
@@ -313,7 +313,7 @@ a {
 .contacts {
     margin: 0 auto;
     width: 80%;
-    margin-top: 25%;
+    margin-top: 15%;
 }
 #contacts-logo {
     font-family: Alexandria;
