@@ -126,9 +126,10 @@ a {
 }
 .main-about__btn button {
     transition: ease 300ms;
+    margin-right: 15px;
 }
 .main-about__btn button:hover {
-    width: 110px;
+    margin-right: 5px;
     border-radius: 15px 0px 0px 15px;
 }
 .main-text h5 {
@@ -234,8 +235,8 @@ a {
     margin-top: 10px;
     transition: ease 300ms;
 }
-.blocks-bluetext:hover {
-    transform: scale(1.05);
+.blocks-bluetext a:hover {
+    font-size: 22px;
     cursor: zoom-in;
 }
 .line-shadow {
@@ -273,6 +274,11 @@ a {
 }
 .skills-text a {
     color: #C8782F;
+    transition: ease 300ms;
+}
+.skills-text a:hover {
+    background-color: #c8792f2a;
+    border-radius: 10px;
 }
 .skills-techs {
     display: flex;
