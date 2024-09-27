@@ -57,17 +57,6 @@ a {
     border-bottom: solid rgb(114, 114, 114) 3px;
     border-radius: 30px;
 }
-.header-elements img {
-    margin-top: 35px;
-    margin-right: 50px;
-    width: 30px;
-    height: 30px;
-    transition: ease 300ms;
-}
-.header-elements img:hover {
-    cursor: pointer;
-    transform: scale(1.5);
-}
 #eng {
     color: rgb(82, 149, 226);
 }
@@ -334,7 +323,7 @@ a {
     font-size: 90px;
 }
 .contacts-arrow {
-    margin-left: 110%;
+    margin-left: 65vw;
     font-size: 100px;
     color: white;
     transition: ease 300ms;
@@ -404,9 +393,10 @@ a {
     background-color: #498df30c;
 }
 .contacts-back {
-    transform: rotate(270deg);
+    display: block;
+    transform: rotate(-90deg);
     width: 200px;
-    margin-left: 85%;
+    margin-left: 65vw;
     padding-left: 250px;
     transition: ease 300ms;
 }
@@ -438,28 +428,19 @@ a {
         border-radius: 20px;
         border-width: 2px;
     }
-    .header-elements img {
-        width: 20px;
-        height: 20px;
-        margin-right: 20px;
-        margin-top: 22px;
-    }
-    .header-elements img:hover {
-        transform: scale(1.3);
-    }
     .header {
         line-height: 60px;
         width: 85%;
     }
 
     .main {
-        padding-top: 40%;
+        padding-top: 30%;
         padding-left: 10%;
-        padding-bottom: 30%;
+        padding-bottom: 20%;
     }
     .main-background h1 {
-        font-size: 300px;
-        margin-top: 140px;
+        font-size: 270px;
+        margin: 105px auto;
     }
     .main-text h1 {
         font-size: 32px;
@@ -497,13 +478,13 @@ a {
     }
     .about-code-right {
         width: 40%;
-        top: 85%;
-    }
-    #code-left2 {
         top: 120%;
     }
+    #code-left2 {
+        top: 160%;
+    }
     #code-right2 {
-        top: 150%;
+        top: 200%;
     }
     .about-arrow {
         font-size: 16px;
@@ -513,7 +494,7 @@ a {
         font-size: 30px;
     }
     .about-img img {
-        width: 80%;
+        width: 90%;
         height: 93%;
     }
     .blocks {
@@ -521,7 +502,7 @@ a {
     }
     .blocks-block {
         width: 35%;
-        padding-bottom: 40px;
+        padding-bottom: 20px;
     }
     .blocks-block h1 {
         font-size: 18px;
@@ -545,10 +526,10 @@ a {
         font-size: 10px;
     }
     .skills-text h1 {
-        font-size: 36px;
+        font-size: 38px;
     }
     .skills-text h5 {
-        font-size: 12px;
+        font-size: 10px;
         width: 90%;
     }
     .skills-tech {
@@ -569,10 +550,10 @@ a {
         width: 300px;
     }
     #contacts-logo {
-        font-size: 40px;
+        font-size: 50px;
     }
     .contacts-text span {
-        font-size: 30px;
+        font-size: 40px;
     }
     .contacts-arrow {
         font-size: 60px;
@@ -585,17 +566,21 @@ a {
         padding-top: 15px;
         padding-bottom: 15px;
         border-radius: 40px;
-        margin-left: 40%;
-    }
-    .contacts-button button:hover {
         margin-left: 35%;
     }
+    .contacts-button button:hover {
+        margin-left: 30%;
+    }
     .contacts-button hr {
-        width: 90%;
+        width: 80%;
         margin-top: 25px;
+        left: 0;
+        right: 0;
+        margin-right: auto;
+        margin-left: auto;
     }
     #contacts-mail {
-        margin-top: 10px;
+        margin-top: 30px;
         font-size: 12px;
         padding-top: 10px;
         padding-bottom: 10px;
@@ -603,17 +588,18 @@ a {
     }
     .contacts-icons {
         margin-top: 40px;
-        width: 160px;
-        margin-left: 25px;
+        width: 190px;
+        margin-left: 10px;
     }
     .contacts-icons img {
         margin-right: 20px;
-        width: 30px;
-        height: 30px;
+        width: 40px;
+        height: 40px;
     }
     .contacts-back {
-        margin-left: 35%;
-        padding-left: 65%;
+        width: 110px;
+        padding-left: 75%;
+        margin-left: 45vw;
     }
     .contacts-back a {
         font-size: 16px;
