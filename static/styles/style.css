@@ -182,7 +182,7 @@ a {
     margin-right: auto;
     left: 0;
     right: 0;
-    width: 45%;
+    width: 50%;
     filter: grayscale(100%);
 }
 .about-img {
@@ -211,7 +211,6 @@ a {
     font-family: Poppins;
 }
 .blocks-block h1 {
-    margin-left: 100px;
     width: 470px;
     height: 70px;
     font-weight: 400;
@@ -486,13 +485,13 @@ a {
     }
     .about-code-right {
         width: 40%;
-        top: 120%;
+        top: 90%;
     }
     #code-left2 {
-        top: 160%;
+        top: 130%;
     }
     #code-right2 {
-        top: 200%;
+        top: 180%;
     }
     .about-arrow {
         font-size: 16px;
@@ -502,15 +501,22 @@ a {
         font-size: 30px;
     }
     .about-img img {
-        width: 85%;
-        height: 93%;
+        width: 100%;
+        height: 100%;
     }
     .blocks {
-        padding-top: 25%;
+        background-color: rgba(0, 0, 0, 0.089);
+        padding-top: 5%;
+        display: block;
     }
     .blocks-block {
+        background-color: transparent;
+        margin-left: 20px;
         width: 35%;
         padding-bottom: 20px;
+    }
+    #right-block {
+        background: transparent;
     }
     .blocks-block h1 {
         width: 130px;
@@ -519,15 +525,21 @@ a {
         height: 20px;
     }
     .blocks-block h5 {
-        width: 100px;
+        color: rgba(158, 158, 158, 0.76);
+        width: 300px;
         margin-top: 15px;
         height: 10px;
         font-size: 10px;
     }
     .blocks-block p {
-        width: 100%;
+        margin-left: 5px;
+        width: 140%;
         margin-top: 10px;
         font-size: 10px;
+    }
+    .line-shadow {
+        height: 30px;
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0) 20%, #20232d 80%);;
     }
 
     .skills {
